@@ -1,6 +1,6 @@
 
 spring: 
-  profile: test
+  profiles: test
 
 spring:
   application:
