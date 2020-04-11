@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+
+
+---
+
+server:
+  port: 8720
+
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-dev
+
+---
+server:
+  port: 8721
+
+spring:
+  profiles: test
+  application:
+    name: springcloud-config-test
